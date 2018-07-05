@@ -3,8 +3,7 @@ var array_length;
 function readt(){
  var x = document.getElementById("myText").value;
  var arr = x.split(",");
- heapSort(arr)
- console.log(arr); 
+ heapSort(arr);
  document.getElementById("myTextarea").value = arr;
 }
 /* to create MAX  array */
